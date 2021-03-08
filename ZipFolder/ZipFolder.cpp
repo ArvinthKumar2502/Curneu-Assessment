@@ -22,6 +22,7 @@ void zipFolder(string src,string dest)
 	system("start powershell.exe Set-ExecutionPolicy RemoteSigned");
    	system("start powershell.exe .\\zip.ps1");
 
+	cout<<"\nLocation of Zipped Folder : "<<dest;
 
 }
 
@@ -29,16 +30,19 @@ int main()
 {
 	string source_filepath;
     string destination_path;
+	int x;
 
-	std::cout << "\t\t\t\t\t\tZip a Folder\n\n\n";
+	std::cout << "\t\t\t\t\tZip a Folder\n\n\n";
 
 	std::cout << "Enter the file path of the Directory to be Zipped : \n";
     cin >> source_filepath;
 
-    std::cout << "Enter the Destination path of the Directory to be Zipped : \n";
+    std::cout << "\n\nEnter the Destination path of the Directory to be Zipped : \n";
     cin >> destination_path;
 
 	zipFolder(source_filepath,destination_path);
+
+	cin>>x;
 	
 	return 0;
 }
