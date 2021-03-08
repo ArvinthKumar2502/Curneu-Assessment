@@ -122,6 +122,7 @@ int main()
     }
     
 	cout << "The closest distance is " << closest(P, n); 
+	
 	return 0; 
 } 
 

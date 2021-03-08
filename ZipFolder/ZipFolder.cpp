@@ -42,7 +42,7 @@ int main()
 
 	zipFolder(source_filepath,destination_path);
 
-	cin>>x;
+	//cin>>x;
 	
 	return 0;
 }
