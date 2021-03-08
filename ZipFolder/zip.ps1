@@ -1,1 +1,1 @@
-Compress-Archive -LiteralPath 'C:\Users\arvin\Desktop\sample' -DestinationPath 'C:\Users\arvin\Desktop\sample.zip'
+Compress-Archive -LiteralPath 'C:\Users\arvin\Desktop\sample' -DestinationPath 'C:\Users\arvin\Desktop\sample2.zip'
